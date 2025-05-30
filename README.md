@@ -4,6 +4,16 @@ A hybrid cybersecurity assistant combining LLM-driven contextual chat and deep l
 # 🔐 CYBER-SHIELD INTELLIGENT ASSISTANT
 
 ---
+## 🎥 Demo
+
+Click below to view the demo of the CyberShield Intelligent Assistant in action:
+
+<video width="100%" controls>
+  <source src="assets/demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+---
 
 ## 🚀 Features
 
@@ -150,13 +160,3 @@ dotenv, uvicorn, tqdm
 ---
 📄 License
 MIT License — See the LICENSE file.
-
-## 🎥 Demo
-
-Click below to view the demo of the CyberShield Intelligent Assistant in action:
-
-<video width="100%" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-
