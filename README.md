@@ -11,8 +11,8 @@ CyberShield Intelligent Assistant is a hybrid cybersecurity solution that integr
 # Avec lien
 [![Description](assets/images/logo.png)](https://votre-site.com)
 
-# Taille contrôlée (HTML)
-<img src="assets/images/Capture d’écran (110).png" width="600" alt="Architecture">
+# CHAT ASSISTANCE (HTML)
+<img src="assets/images/Capture d’écran (112).png" width="600" alt="Architecture">
 
 # Centré
 <div align="center">
