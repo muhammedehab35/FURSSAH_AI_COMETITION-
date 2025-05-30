@@ -1,8 +1,13 @@
 # Furssah-AI-Competition--Tunisia
 
 # 🔐 CYBER-SHIELD INTELLIGENT ASSISTANT
-CyberShield Intelligent Assistant is a hybrid cybersecurity solution that integrates Large Language Model (LLM)-driven contextual dialogue with deep learning-based real-time network threat detection. Designed for SOC analysts, cybersecurity researchers, and incident response engineers, this system delivers both intelligent interaction and automated threat analysis.
+CyberShield Intelligent Assistant is a comprehensive cybersecurity solution that integrates three specialized AI agents: an LLM-powered chatbot for expert consultation, a deep learning-based fraud detection system for real-time threat analysis, and an advanced image analysis engine for visual cybersecurity content processing. Designed for SOC analysts, cybersecurity researchers, and incident response engineers, this system delivers intelligent interaction, automated threat detection, and visual content analysis in a unified platform.
 ---
+<div align="center">
+🤖 AI Chatbot🛡️ Fraud Detector🔍 Image AnalyzerExpert cybersecurity consultationReal-time threat detectionVisual content analysisCVE analysis & pentesting guidanceNetwork anomaly classificationMalware screenshot analysisInteractive SOC/IR workflowsFraud pattern recognitionSecurity diagram interpretation
+</div>
+---
+# AGENT 1: 
 # TRAFIC
 <img src="assets/images/Capture d’écran (111).png" width="600" alt="Architecture">
 
@@ -10,14 +15,14 @@ CyberShield Intelligent Assistant is a hybrid cybersecurity solution that integr
 <img src="assets/images/Capture d’écran (110).png" width="600" alt="Architecture">
 # Avec lien
 [![Description](assets/images/logo.png)](https://votre-site.com)
-
-# CHAT ASSISTANCE (HTML)
+# AGENT 2: 
+# CHAT ASSISTANCE 
 <img src="assets/images/Capture d’écran (112).png" width="600" alt="Architecture">
-
-# IMAGE TO ANALYSE (HTML)
+# AGENT 3: 
+# IMAGE TO ANALYSE 
 <img src="assets/images/4-types-of-cyber-fraud-1024x536.jpg" width="600" alt="Architecture"> 
 
-# IMAGE ANALYSIS (HTML)
+# IMAGE ANALYSIS 
 <img src="assets/images/Capture d’écran (113).png" width="600" alt="Architecture">
 # Centré
 <div align="center">
@@ -74,6 +79,9 @@ cybershield-intelligent/
 │   │   └── streamlit_ui.py        # Chat + Threat Upload UI
 │   └── utils/
 │       └── helpers.py             # Logging, formatting, scoring utils
+├── assets/
+│   ├── images/                    # Screenshots et diagrammes
+│   └── demo.gif                   # Animation de démonstration
 ├── data/
 │   └── samples/                   # Sample PCAPs / logs / threat flows
 ├── .env.example                   # Environment variable template
@@ -84,7 +92,7 @@ cybershield-intelligent/
 <pre>
   
 ---
-  
+
 
 ## 🧪 Quickstart
 # 1. Clone the repository
