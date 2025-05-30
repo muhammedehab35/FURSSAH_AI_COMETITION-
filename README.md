@@ -7,11 +7,11 @@ CyberShield Intelligent Assistant is a comprehensive cybersecurity solution that
 </div>
 --- 
 
-# AGENT 1 :  TRAFIC
+# AGENT 1 :  TRAFIC DETECTION
 <img src="assets/images/Capture d’écran (111).png" width="600" alt="Architecture">
 ---
 
-# TRAFIC DETECTION
+# 
 <img src="assets/images/Capture d’écran (110).png" width="600" alt="Architecture">
 
 # AGENT2 CHAT ASSISTANCE 
