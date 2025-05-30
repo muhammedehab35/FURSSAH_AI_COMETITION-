@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberShield - Analyseur de Trafic Réseau</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><i class="fas fa-shield-alt"></i> CyberShield</h1>
+            <p>Analyseur Intelligent de Trafic Réseau</p>
+        </div>
+
+        <div class="main-content">
+            <div class="input-section">
+                <h2 class="section-title">
+                    <i class="fas fa-network-wired"></i>
+                    Données de Trafic
+                </h2>
+                
+                <div class="input-group">
+                    <label for="traffic-data">Features du Flux Réseau :</label>
+                    <textarea id="traffic-data" placeholder="Collez ici les features de votre flux réseau...
+Exemple:
+Destination Port: 443, Flow Duration: 120, Total Fwd Packets: 45, Total Backward Packets: 38, ..."></textarea>
+                    
+                    <button class="sample-btn" onclick="loadSampleData()">
+                        <i class="fas fa-magic"></i> Charger des données d'exemple
+                    </button>
+                </div>
+
+                <div class="input-group">
+                    <label for="analysis-mode">Mode d'analyse :</label>
+                    <select id="analysis-mode">
+                        <option value="detailed">Analyse détaillée</option>
+                        <option value="quick">Analyse rapide</option>
+                        <option value="threat-focused">Focalisé sur les menaces</option>
+                    </select>
+                </div>
+
+                <button class="btn" id="analyze-btn" onclick="analyzeTraffic()">
+                    <i class="fas fa-search"></i>
+                    Analyser le Trafic
+                </button>
+
+                <div class="loading" id="loading">
+                    <div class="spinner"></div>
+                    <p>Analyse en cours...</p>
+                </div>
+            </div>
+
+            <div class="results-section">
+                <h2 class="section-title">
+                    <i class="fas fa-chart-line"></i>
+                    Résultats d'Analyse
+                </h2>
+
+                <div id="no-results" style="text-align: center; color: #718096; padding: 50px;">
+                    <i class="fas fa-clipboard-list" style="font-size: 3rem; margin-bottom: 20px; opacity: 0.3;"></i>
+                    <p>Les résultats d'analyse apparaîtront ici</p>
+                </div>
+
+                <div class="results" id="results">
+                    <!-- Les résultats seront injectés ici -->
+                </div>
+
+                <div class="error-message" id="error-message" style="display: none;">
+                    <!-- Messages d'erreur -->
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-grid" id="stats-grid" style="display: none;">
+            <div class="stat-card">
+                <div class="stat-value" id="confidence-stat">--</div>
+                <div class="stat-label">Confiance</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="risk-stat">--</div>
+                <div class="stat-label">Score de Risque</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="packets-stat">--</div>
+                <div class="stat-label">Total Paquets</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value" id="duration-stat">--</div>
+                <div class="stat-label">Durée (s)</div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
