@@ -26,11 +26,11 @@ malware analysis
 SOC/IR workflows
 Local or API-based inference (configurable)
 --
-# AGENT3 IMAGE TO ANALYSE 
+# IMAGE ANALYSIS 
 
 <img src="assets/images/4-types-of-cyber-fraud-1024x536.jpg" width="600" alt="Architecture"> 
 
-# IMAGE ANALYSIS 
+# RESULTS
 <img src="assets/images/Capture d’écran (113).png" width="600" alt="Architecture">
 ---
 
