@@ -150,3 +150,4 @@ dotenv, uvicorn, tqdm
 ---
 📄 License
 MIT License — See the LICENSE file.
+[![Watch Demo](assets/thumbnail.png)](assets/demo.mp4)
