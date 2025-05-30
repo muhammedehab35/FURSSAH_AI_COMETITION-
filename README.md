@@ -4,10 +4,10 @@
 CyberShield Intelligent Assistant is a hybrid cybersecurity solution that integrates Large Language Model (LLM)-driven contextual dialogue with deep learning-based real-time network threat detection. Designed for SOC analysts, cybersecurity researchers, and incident response engineers, this system delivers both intelligent interaction and automated threat analysis.
 ---
 # TRAFIC
-![Description](assets/images/Capture d’écran (111).png)
+<img src="assets/images/Capture d’écran (111).png" width="600" alt="Architecture">
 
 # TRAFIC DETECTION
-![Description](assets/images/Capture d’écran (110).png.png)
+<img src="assets/images/Capture d’écran (110).png" width="600" alt="Architecture">
 # Avec lien
 [![Description](assets/images/logo.png)](https://votre-site.com)
 
