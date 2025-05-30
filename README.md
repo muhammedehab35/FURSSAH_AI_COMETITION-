@@ -15,10 +15,10 @@ CyberShield Intelligent Assistant is a hybrid cybersecurity solution that integr
 <img src="assets/images/Capture d’écran (112).png" width="600" alt="Architecture">
 
 # IMAGE TO ANALYSE (HTML)
-<img src="assets/images/4-types-of-cyber-fraud-1024x536.png" width="600" alt="Architecture"> 
+<img src="assets/images/4-types-of-cyber-fraud-1024x536.jpg" width="600" alt="Architecture"> 
 
 # IMAGE ANALYSIS (HTML)
-<img src="assets/images/Capture d’écran (112).png" width="600" alt="Architecture">
+<img src="assets/images/Capture d’écran (113).png" width="600" alt="Architecture">
 # Centré
 <div align="center">
   <img src="assets/images/logo.png" width="200" alt="Logo">
