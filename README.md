@@ -14,7 +14,7 @@ CyberShield Intelligent Assistant is a comprehensive cybersecurity solution that
 # TRAFIC DETECTION
 <img src="assets/images/Capture d’écran (110).png" width="600" alt="Architecture">
 
-# AGENT CHAT ASSISTANCE 
+# AGENT2 CHAT ASSISTANCE 
 <img src="assets/images/Capture d’écran (112).png" width="600" alt="Architecture">
 ---
 🧠 LLM Component (Qwen 2.5B Instruct)
@@ -26,7 +26,7 @@ malware analysis
 SOC/IR workflows
 Local or API-based inference (configurable)
 --
-# AGENT3IMAGE TO ANALYSE 
+# AGENT3 IMAGE TO ANALYSE 
 
 <img src="assets/images/4-types-of-cyber-fraud-1024x536.jpg" width="600" alt="Architecture"> 
 
