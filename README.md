@@ -4,22 +4,17 @@
 CyberShield Intelligent Assistant is a comprehensive cybersecurity solution that integrates three specialized AI agents: an LLM-powered chatbot for expert consultation, a deep learning-based fraud detection system for real-time threat analysis, and an advanced image analysis engine for visual cybersecurity content processing. Designed for SOC analysts, cybersecurity researchers, and incident response engineers, this system delivers intelligent interaction, automated threat detection, and visual content analysis in a unified platform.
 ---
 <div align="center">
-🤖 AI Chatbot🛡️ Fraud Detector🔍 Image AnalyzerExpert cybersecurity consultationReal-time threat detectionVisual content analysisCVE analysis & pentesting guidanceNetwork anomaly classificationMalware screenshot analysisInteractive SOC/IR workflowsFraud pattern recognitionSecurity diagram interpretation
 </div>
----
-# AGENT 1: 
-# TRAFIC
+--- 
+# AGENT 1 :  TRAFIC
 <img src="assets/images/Capture d’écran (111).png" width="600" alt="Architecture">
 
 # TRAFIC DETECTION
 <img src="assets/images/Capture d’écran (110).png" width="600" alt="Architecture">
-# Avec lien
-[![Description](assets/images/logo.png)](https://votre-site.com)
-# AGENT 2: 
-# CHAT ASSISTANCE 
+# AGENT 2  CHAT ASSISTANCE 
 <img src="assets/images/Capture d’écran (112).png" width="600" alt="Architecture">
-# AGENT 3: 
-# IMAGE TO ANALYSE 
+
+#AGENT 3  IMAGE TO ANALYSE 
 <img src="assets/images/4-types-of-cyber-fraud-1024x536.jpg" width="600" alt="Architecture"> 
 
 # IMAGE ANALYSIS 
