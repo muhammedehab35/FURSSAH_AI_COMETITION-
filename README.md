@@ -156,7 +156,7 @@ MIT License — See the LICENSE file.
 Click below to view the demo of the CyberShield Intelligent Assistant in action:
 
 <video width="100%" controls>
-  <source src="assets/demo.mp4" type="video/mp4">
+  <source src="assets/pitch.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
